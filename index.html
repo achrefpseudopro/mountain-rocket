@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mountain Rocket</title>
+  <meta name="description" content="Équipe FTC du Lycée CECAM-ESCR et Nicomatic — TOP FAB Saison 3, Chablais, Haute-Savoie.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600;700&family=DM+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navbar (injected by components.js) -->
+<div id="navbar-placeholder"></div>
+
+<!-- ==================== HERO ==================== -->
+<section class="hero-section">
+  <div class="hero-glow glow-cyan"></div>
+  <div class="hero-glow glow-orange"></div>
+  <div class="container text-center position-relative" style="z-index:1;">
+    <div class="hero-tag mb-4">▸ TOP FAB — Saison 3</div>
+    <h1 class="hero-title mb-2">
+      Mountain Rocket<br>
+      <span class="highlight">24276</span>
+    </h1>
+    <p class="lead text-sec mb-2" style="font-family:var(--font-display);">FIRST Tech Challenge — Chablais, Haute-Savoie</p>
+    <p class="text-sec mx-auto mb-4" style="max-width:600px;">
+      Des élèves du Chablais conçoivent, fabriquent et programment un robot de compétition,
+      accompagnés par Nicomatic, leader mondial des connecteurs de haute performance.
+    </p>
+    <div class="d-flex justify-content-center gap-3 flex-wrap mb-5">
+      <a href="pages/robot.html" class="btn btn-accent btn-lg text-uppercase">Découvrir le robot →</a>
+      <a href="pages/about.html" class="btn btn-outline-accent btn-lg text-uppercase">L'équipe</a>
+    </div>
+    <div class="d-flex justify-content-center gap-5 flex-wrap">
+      <div class="hero-stat text-center">
+        <div class="num" data-count="3">0</div><div class="label">Saison</div>
+      </div>
+      <div class="hero-stat text-center">
+        <div class="num" data-count="15">0</div><div class="label">Élèves</div>
+      </div>
+      <div class="hero-stat text-center">
+        <div class="num" data-count="5">0</div><div class="label">Mentors</div>
+      </div>
+      <div class="hero-stat text-center">
+        <div class="num" data-count="1">0</div><div class="label">Robot</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== ABOUT (short) ==================== -->
+<section class="py-5">
+  <div class="container">
+    <div class="reveal">
+      <div class="section-label mb-2">Le Projet</div>
+      <h2 class="section-title mb-3">Réconcilier les jeunes<br>avec l'industrie</h2>
+      <p class="text-sec" style="max-width:650px;">
+        TOP FAB utilise la robotique comme passerelle entre les jeunes et le monde industriel.
+        Notre binôme représente le Chablais dans cette aventure audiovisuelle et technique.
+      </p>
+    </div>
+    <div class="row g-4 mt-3">
+      <div class="col-md-6 col-lg-3 reveal">
+        <div class="card-topfab h-100"><div class="card-body">
+          <div class="fs-2 mb-2">🔧</div>
+          <h5 class="card-title">Concevoir</h5>
+          <p class="text-sec small">Prototypage, CAO et design mécanique avec le soutien des ingénieurs Nicomatic.</p>
+        </div></div>
+      </div>
+      <div class="col-md-6 col-lg-3 reveal">
+        <div class="card-topfab h-100"><div class="card-body">
+          <div class="fs-2 mb-2">⚡</div>
+          <h5 class="card-title">Fabriquer</h5>
+          <p class="text-sec small">Usinage, impression 3D, assemblage dans les ateliers du lycée et de Nicomatic.</p>
+        </div></div>
+      </div>
+      <div class="col-md-6 col-lg-3 reveal">
+        <div class="card-topfab h-100"><div class="card-body">
+          <div class="fs-2 mb-2">💻</div>
+          <h5 class="card-title">Programmer</h5>
+          <p class="text-sec small">Java / Blocks, capteurs, stratégies autonomes et téléopérées.</p>
+        </div></div>
+      </div>
+      <div class="col-md-6 col-lg-3 reveal">
+        <div class="card-topfab h-100"><div class="card-body">
+          <div class="fs-2 mb-2">🏆</div>
+          <h5 class="card-title">Compétir</h5>
+          <p class="text-sec small">Objectif : la compétition nationale FIRST Tech Challenge à Lyon.</p>
+        </div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== LATEST BLOG (preview) ==================== -->
+<section class="bg-section py-5">
+  <div class="container">
+    <div class="d-flex justify-content-between align-items-end mb-4 reveal">
+      <div>
+        <div class="section-label mb-2">Actualités</div>
+        <h2 class="section-title">Dernières nouvelles</h2>
+      </div>
+      <a href="pages/blog.html" class="btn btn-outline-accent btn-sm text-uppercase">Tout voir →</a>
+    </div>
+    <div class="row g-4">
+
+      <!-- ARTICLE CARD — duplicate / edit to add more -->
+      <div class="col-md-6 col-lg-4 reveal">
+        <div class="card-topfab blog-card h-100">
+          <!-- Replace src with your image in /images -->
+          <img src="./images/lancement-top-fab-saison-3.jpg" alt="Article 1">
+          <div class="card-body">
+            <div class="meta mb-2">15 Sept 2025 · Lancement</div>
+            <h5 class="card-title">Lancement de la Saison 3</h5>
+            <p class="text-sec small">L'aventure TOP FAB reprend ! Découvrez les premiers moments de notre équipe CECAM-ESCR × Nicomatic.</p>
+            <a href="blog/2025-09-15-lancement.html" class="small">Lire la suite →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 reveal">
+        <div class="card-topfab blog-card h-100">
+          <img src="https://placehold.co/600x400/161b28/ff6b35?text=Article+2" alt="Article 2">
+          <div class="card-body">
+            <div class="meta mb-2">02 Oct 2025 · Visite</div>
+            <h5 class="card-title">Visite des ateliers Nicomatic</h5>
+            <p class="text-sec small">Les élèves découvrent les machines de pointe et l'univers des connecteurs haute performance.</p>
+            <a href="blog/2025-10-02-visite-nicomatic.html" class="small">Lire la suite →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 reveal">
+        <div class="card-topfab blog-card h-100">
+          <img src="https://placehold.co/600x400/161b28/00e5ff?text=Article+3" alt="Article 3">
+          <div class="card-body">
+            <div class="meta mb-2">20 Nov 2025 · Robot</div>
+            <h5 class="card-title">Premier prototype assemblé</h5>
+            <p class="text-sec small">Le châssis prend forme, les premiers mouvements du robot sont testés au lycée.</p>
+            <a href="blog/2025-11-20-prototype.html" class="small">Lire la suite →</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ==================== PARTNERS (short) ==================== -->
+<section class="py-5">
+  <div class="container">
+    <div class="reveal">
+      <div class="section-label mb-2">Le Binôme</div>
+      <h2 class="section-title mb-4">École & Industrie</h2>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-6 reveal">
+        <div class="card-topfab border-top-orange h-100"><div class="card-body text-center">
+          <h4 class="font-display fw-bold">Lycée CECAM-ESCR</h4>
+          <div class="font-mono small text-accent mb-3">Établissement scolaire · Chablais</div>
+          <p class="text-sec small">Lycée professionnel et technologique engagé dans l'innovation pédagogique.</p>
+        </div></div>
+      </div>
+      <div class="col-md-6 reveal">
+        <div class="card-topfab border-top-accent h-100"><div class="card-body text-center">
+          <h4 class="font-display fw-bold">Nicomatic</h4>
+          <div class="font-mono small text-accent mb-3">Connecteurs haute performance · Haute-Savoie</div>
+          <p class="text-sec small">Leader mondial pour l'aérospatial, la défense et le médical.</p>
+          <a href="https://www.nicomatic.com/fr" target="_blank" class="small">nicomatic.com →</a>
+        </div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer (injected by components.js) -->
+<div id="footer-placeholder"></div>
+
+<!-- Back to top -->
+<button id="btn-top" class="btn-top" aria-label="Retour en haut">↑</button>
+
+<!-- Lightbox -->
+<div id="lightbox" class="lightbox-overlay"><img id="lightbox-img" alt=""></div>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/components.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

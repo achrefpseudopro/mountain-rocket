@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galerie — CECAM-ESCR × Nicomatic</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600;700&family=DM+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="../css/style.css" rel="stylesheet">
+</head>
+<body>
+<div id="navbar-placeholder"></div>
+
+<section class="py-5" style="margin-top:5rem;">
+  <div class="container">
+    <div class="reveal">
+      <div class="section-label mb-2">Galerie</div>
+      <h1 class="section-title mb-3">Photos & Vidéos</h1>
+      <p class="text-sec mb-5" style="max-width:600px;">
+        Les coulisses de la fabrication, les visites d'entreprise, les moments de compétition.
+      </p>
+    </div>
+
+    <!-- ===== PHOTOS ===== -->
+    <h3 class="font-display fw-bold mb-3 reveal">📸 Photos</h3>
+    <div class="gallery-grid mb-5 reveal">
+      <!--
+        HOW TO ADD PHOTOS:
+        1. Drop your image in /images  (e.g. images/visite-nicomatic-01.jpg)
+        2. Add an <img> tag below — the lightbox works automatically
+      -->
+      <img src="https://placehold.co/600x450/161b28/00e5ff?text=Photo+1" alt="Photo 1">
+      <img src="https://placehold.co/600x450/161b28/ff6b35?text=Photo+2" alt="Photo 2">
+      <img src="https://placehold.co/600x450/161b28/00e5ff?text=Photo+3" alt="Photo 3">
+      <img src="https://placehold.co/600x450/161b28/ff6b35?text=Photo+4" alt="Photo 4">
+      <img src="https://placehold.co/600x450/161b28/00e5ff?text=Photo+5" alt="Photo 5">
+      <img src="https://placehold.co/600x450/161b28/ff6b35?text=Photo+6" alt="Photo 6">
+    </div>
+
+    <!-- ===== VIDEOS ===== -->
+    <h3 class="font-display fw-bold mb-3 reveal">🎬 Vidéos</h3>
+    <div class="row g-4 reveal">
+      <!--
+        HOW TO ADD VIDEOS:
+        Option A — YouTube/Vimeo embed: paste iframe inside .video-wrapper
+        Option B — Local file: use <video> tag with src="../videos/filename.mp4"
+      -->
+      <div class="col-md-6">
+        <div class="video-wrapper">
+          <!-- Replace with your YouTube embed or local video -->
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/ikact3NzJhM?si=d73V2P58EY7W69Pt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card-topfab p-4 text-center" style="aspect-ratio:16/9; display:flex; align-items:center; justify-content:center;">
+          <div>
+            <div class="fs-1 mb-2">🎥</div>
+            <p class="text-sec small mb-0">
+              Pour une vidéo locale :<br>
+              <code class="font-mono small">&lt;video src="../videos/demo.mp4" controls&gt;&lt;/video&gt;</code>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<div id="footer-placeholder"></div>
+<button id="btn-top" class="btn-top" aria-label="Retour en haut">↑</button>
+<div id="lightbox" class="lightbox-overlay"><img id="lightbox-img" alt=""></div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../js/components.js"></script>
+<script src="../js/main.js"></script>
+</body>
+</html>

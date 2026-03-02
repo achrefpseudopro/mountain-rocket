@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog — CECAM-ESCR × Nicomatic</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600;700&family=DM+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="../css/style.css" rel="stylesheet">
+</head>
+<body>
+<div id="navbar-placeholder"></div>
+
+<section class="py-5" style="margin-top:5rem;">
+  <div class="container">
+    <div class="reveal">
+      <div class="section-label mb-2">Blog</div>
+      <h1 class="section-title mb-3">Actualités & Articles</h1>
+      <p class="text-sec mb-5" style="max-width:600px;">
+        Suivez notre parcours, de la conception du robot jusqu'à la compétition nationale.
+      </p>
+    </div>
+
+    <div class="row g-4">
+
+      <!--
+        ============================================================
+        HOW TO ADD A NEW ARTICLE:
+        1. Create a new .html file in /blog  (e.g. 2026-01-10-new-article.html)
+           → copy blog/_template.html as a starting point
+        2. Copy-paste the <div class="col-md-6 col-lg-4"> block below
+        3. Update: image, date, title, summary, link
+        ============================================================
+      -->
+
+      <div class="col-md-6 col-lg-4 reveal">
+        <div class="card-topfab blog-card h-100">
+          <img src="../images/cecamxnicomatic.jfif" alt="Lancement Saison 3">
+          <div class="card-body">
+            <div class="meta mb-2">15 Sept 2025 · Lancement</div>
+            <h5 class="card-title">Lancement de la Saison 3</h5>
+            <p class="text-sec small">L'aventure TOP FAB reprend avec notre binôme CECAM-ESCR × Nicomatic.</p>
+            <a href="../blog/2025-09-15-lancement.html" class="small">Lire la suite →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 reveal">
+        <div class="card-topfab blog-card h-100">
+          <img src="https://placehold.co/600x400/161b28/ff6b35?text=Visite+Nicomatic" alt="Visite Nicomatic">
+          <div class="card-body">
+            <div class="meta mb-2">02 Oct 2025 · Visite</div>
+            <h5 class="card-title">Visite des ateliers Nicomatic</h5>
+            <p class="text-sec small">Les élèves découvrent les machines de pointe et l'univers des connecteurs.</p>
+            <a href="../blog/2025-10-02-visite-nicomatic.html" class="small">Lire la suite →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 reveal">
+        <div class="card-topfab blog-card h-100">
+          <img src="https://placehold.co/600x400/161b28/00e5ff?text=Prototype" alt="Prototype">
+          <div class="card-body">
+            <div class="meta mb-2">20 Nov 2025 · Robot</div>
+            <h5 class="card-title">Premier prototype assemblé</h5>
+            <p class="text-sec small">Le châssis prend forme, les premiers mouvements sont testés au lycée.</p>
+            <a href="../blog/2025-11-20-prototype.html" class="small">Lire la suite →</a>
+          </div>
+        </div>
+      </div>
+
+            <div class="col-md-6 col-lg-4 reveal">
+        <div class="card-topfab blog-card h-100">
+          <img src="https://placehold.co/600x400/161b28/00e5ff?text=2eme protoype" alt="2eme">
+          <div class="card-body">
+            <div class="meta mb-2">01 Jan 2026 · Robot</div>
+            <h5 class="card-title">Deuxieme prototype assemblé</h5>
+            <p class="text-sec small">Le châssis prend forme, les premiers mouvements sont testés au lycée.</p>
+            <a href="../blog/2026-01-01.html" class="small">Lire la suite →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Add more article cards here -->
+
+    </div>
+  </div>
+</section>
+
+<div id="footer-placeholder"></div>
+<button id="btn-top" class="btn-top" aria-label="Retour en haut">↑</button>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../js/components.js"></script>
+<script src="../js/main.js"></script>
+</body>
+</html>
