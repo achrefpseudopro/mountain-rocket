@@ -21,7 +21,7 @@ topfab/
 │   ├── blog.html           ← Liste des articles
 │   ├── gallery.html        ← Photos + vidéos avec lightbox
 │   ├── about.html          ← Équipe (mentors + élèves)
-│   └── contact.html        ← Formulaire de contact
+│   └── communauté.html        ← Nos réseaux sociaux et partenaires
 ├── blog/
 │   ├── _template.html      ← ⭐ TEMPLATE — copiez-le pour chaque nouvel article
 │   └── 2025-09-15-lancement.html  ← Article d'exemple
